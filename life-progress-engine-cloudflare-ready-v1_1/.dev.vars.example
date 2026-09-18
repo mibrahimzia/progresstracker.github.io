@@ -1,0 +1,4 @@
+AUTH_PASSWORD_HASH=150000:32-hex-character-salt:64-hex-character-hash
+SESSION_SECRET=replace-with-at-least-32-random-characters
+GROQ_API_KEY=gsk_your-key-here
+GROQ_MODEL=openai/gpt-oss-120b

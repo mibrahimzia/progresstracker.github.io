@@ -1,0 +1,13 @@
+name = "life-progress-engine"
+pages_build_output_dir = "public"
+compatibility_date = "2026-08-27"
+compatibility_flags = ["nodejs_compat"]
+
+[secrets]
+required = ["AUTH_PASSWORD_HASH", "SESSION_SECRET", "GROQ_API_KEY"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "life-progress-db"
+database_id = "17bb8b35-fff2-4241-b061-a21c96e5aeb0"
+preview_database_id = "life-progress-local"

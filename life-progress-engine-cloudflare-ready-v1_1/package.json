@@ -1,0 +1,17 @@
+{
+  "name": "life-progress-engine",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2026-08-27",
+    "deploy": "wrangler pages deploy public --project-name=life-progress-engine",
+    "db:migrate:local": "wrangler d1 execute life-progress-db --local --file=./schema.sql",
+    "db:migrate:remote": "wrangler d1 execute life-progress-db --remote --file=./schema.sql",
+    "hash-password": "node scripts/hash-password.mjs",
+    "self-test": "node scripts/self-test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.1"
+  }
+}
