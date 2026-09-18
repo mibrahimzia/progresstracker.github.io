@@ -1,0 +1,61 @@
+{
+  "threshold": 0.6,
+  "entries": [
+    {
+      "date": "2026-08-23",
+      "aggregate": 0.75,
+      "domains": {
+        "academic": 0.85,
+        "skills": 0.75,
+        "mental": 0.65
+      },
+      "title": "College acceptance + ML/LLM skill base",
+      "comment": "Got into an Electrical Engineering program — a real milestone, even coming to it a bit later than typical. Built genuine technical footing this period: basic grasp of core ML algorithms (linear/logistic regression), got LLMs running locally, and shipped a working BitNet inference wrapper. Also in a casual relationship that's taking some pressure off day to day, which helped rather than hurt everything else."
+    },
+    {
+      "date": "2025-08-15",
+      "aggregate": 0.7,
+      "domains": {
+        "skills": 0.75
+      },
+      "title": "Built BitNet inference wrapper",
+      "comment": "Built a working, lightweight inference wrapper for Microsoft's experimental BitNet architecture. A concrete shipped artifact, not just tinkering — real forward movement on the technical skill side."
+    },
+    {
+      "date": "2025-10-10",
+      "aggregate": 0.55,
+      "domains": {
+        "skills": 0.6
+      },
+      "title": "Learned ML fundamentals",
+      "comment": "Picked up basic working knowledge of core ML algorithms — linear and logistic regression. Foundational rather than a big leap, but real groundwork that everything after builds on."
+    },
+    {
+      "date": "2026-08-23",
+      "aggregate": 0.8,
+      "domains": {
+        "academic": 0.85
+      },
+      "title": "Got into Electrical Engineering program",
+      "comment": "Accepted into an Electrical Engineering program — a genuine milestone, arriving a bit later than typical but no less real for it."
+    },
+    {
+      "date": "2026-08-23",
+      "aggregate": 0.6,
+      "domains": {
+        "mental": 0.65
+      },
+      "title": "New relationship easing stress",
+      "comment": "In a casual, not especially serious relationship that's been a genuine relief on the mental-stress side of things."
+    },
+    {
+      "date": "2026-07-23",
+      "aggregate": 0.3,
+      "domains": {
+        "academic": 0.25
+      },
+      "title": "Didn't get into CIS",
+      "comment": "Rejected from the CIS program — a real setback at the time. In hindsight it's part of the same arc, since the EE acceptance followed a month later, but it stung on its own and belongs in the record as the dip before the recovery."
+    }
+  ]
+}
